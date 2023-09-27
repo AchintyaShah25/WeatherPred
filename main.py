@@ -3,7 +3,7 @@ import requests
 MY_LAT = 36.335880
 # MY_LNG = 72.813085
 MY_LNG = -92.387500
-API_ID = "10725f0a8677064f55b7ae1cf27c900d"
+API_ID = "API_KEY"
 link = f"https://api.openweathermap.org/data/2.8/onecall?lat={MY_LAT}&lon={MY_LNG}&appid={API_ID}"
 parameters = {
     "lat": MY_LAT,
